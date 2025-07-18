@@ -1,5 +1,4 @@
 import 'package:delivery_app/widgets/product_card.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -21,7 +20,7 @@ class HomeScreen extends StatelessWidget {
       'imagePath': 'assets/burger.jpg',
     },
     {
-      'title': 'Cheese burger',
+      'title': 'Double Cheese burger',
       'price': r'$14.99',
       'calories': '44 Calories',
       'time': '20 min',
@@ -306,7 +305,7 @@ class HomeScreen extends StatelessWidget {
                   time: product['time'] ?? '',
                   imagePath: product['imagePath'] ?? '',
                 );
-              }
+              },
             ),
           ],
         ),
