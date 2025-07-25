@@ -8,28 +8,28 @@ class WishlistScreen extends StatelessWidget {
       'price': r'$10.99',
       'calories': '44 Calories',
       'time': '20 min',
-      'imagePath': 'assets/pizza.jpg',
+      'imagePath': 'assets/pizza.png',
     },
     {
       'title': 'Cheese burger',
       'price': r'$4.99',
       'calories': '44 Calories',
       'time': '20 min',
-      'imagePath': 'assets/burger.jpg',
+      'imagePath': 'assets/burger.png',
     },
     {
       'title': 'Double Cheese burger',
       'price': r'$14.99',
       'calories': '44 Calories',
       'time': '20 min',
-      'imagePath': 'assets/doubleburger.jpg',
+      'imagePath': 'assets/doubleburger.png',
     },
     {
       'title': 'Sushi',
       'price': r'$14.99',
       'calories': '44 Calories',
       'time': '20 min',
-      'imagePath': 'assets/sushi.jpg',
+      'imagePath': 'assets/sushi.png',
     },
   ];
 

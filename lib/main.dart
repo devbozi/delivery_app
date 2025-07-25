@@ -1,3 +1,4 @@
+import 'package:delivery_app/pages/product_details_screen.dart';
 import 'package:delivery_app/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:delivery_app/main_screen.dart';
@@ -26,10 +27,12 @@ class MyApp extends StatelessWidget {
           style: TextButton.styleFrom(
             foregroundColor: AppColors.primary,
           ),
-        )
+        ),
       ),
       home:  const MainScreen(),
-      routes: {},
+      routes: {
+        '/product' : (context) => const ProductDetailsScreen(), 
+      },
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

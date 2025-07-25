@@ -21,6 +21,17 @@ class ProductCard extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         return GestureDetector(
+          onTap: () => Navigator.pushNamed(
+            context,
+            '/product',
+            arguments: {
+              'title' : title,
+              'price' : price,
+              'calories' : calories,
+              'time' : time,
+              'imagePath' : imagePath,
+            },
+            ),
           child: Stack(
             children: [
               Container(
